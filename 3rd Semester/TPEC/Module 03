@@ -31,3 +31,24 @@
               }
                     }
       }
+
+2. Calculate the Nth term 
+
+int term, t1 = a, t2 = b, t3 = c;
+    if (n == 1)
+        term = t1;
+    else if (n == 2)
+        term = t2;
+    else if (n == 3)
+        term = t3;
+    else {
+        for (int i = 4; i <= n; i++) {
+            term = t1 + t2 + t3;
+            t1 = t2;
+            t2 = t3;
+            t3 = term;
+        }
+    }
+    return term;
+
+
