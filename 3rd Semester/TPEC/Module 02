@@ -32,3 +32,20 @@
         printf("%d",arr[j]);
         printf(" ");
 }
+
+3. Small And Large Triangle
+
+float calculateArea(float base, float height) {
+ return (0.5 * base * height);
+}
+    if (area1 > area2) {
+        printf("\nThe first triangle is larger.\n");
+        printf("The second triangle is smaller.\n");
+    } else if (area1 < area2) {
+        printf("\nThe second triangle is larger.\n");
+        printf("The first triangle is smaller.\n");
+    } else {
+        printf("\nBoth triangles have the same area.\n");
+    }
+
+
