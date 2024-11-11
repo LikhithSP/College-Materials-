@@ -70,3 +70,10 @@ slow = getSumOfSquares(slow); // Move slow pointer by one step
 fast = getSumOfSquares(getSumOfSquares(fast)); // Move fast pointer by two steps 
 } while (slow != fast);
  return (slow == 1);
+
+5. Triangle Numbers 
+
+int triangularNumber(int n) {
+    return (n * (n + 1)) / 2;
+}
+
