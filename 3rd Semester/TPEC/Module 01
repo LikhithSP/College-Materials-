@@ -11,3 +11,15 @@
     printf("%d %d\n",int_sum,int_diff);
     printf("%0.1f %0.1f", float_sum,float_diff);
 
+2. Playing with characters
+
+    char ch;
+    char s[24];
+    char t[100];
+    scanf("%c", &ch);
+    scanf("%s", s);
+    getchar();
+    scanf("%[^\n]%*c", t);
+    printf("%c\n", ch);
+    printf("%s\n", s);
+    printf("%s\n", t);
